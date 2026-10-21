@@ -1,0 +1,162 @@
+{
+  "$schema": "./schemas/template.schema.json",
+  "format": "git-template",
+  "formatVersion": "0.2.0",
+  "version": "1.0.0",
+  "id": "liubai",
+  "gitUrl": "https://github.com/weelume/liubai-template",
+  "name": "留白设计工作室",
+  "localizedNames": {
+    "en": "Liubai Design Studio"
+  },
+  "sceneId": "brand-portfolio",
+  "listed": false,
+  "tags": [
+    "浅色",
+    "无彩色",
+    "编辑排版",
+    "统一字阶",
+    "PC / iPad / H5",
+    "中英文官网"
+  ],
+  "summary": "设计工作室的对外官网：官网以作品陈列为主线，覆盖主张、精选作品、能力清单、服务、流程、客户评价、报价套餐、常见问题与文章。整体是冷中性灰的无彩色体系，照片是页面里唯一的颜色来源。",
+  "accentColor": "#121218",
+  "cover": "assets/home.webp",
+  "screenshots": [
+    {
+      "src": "assets/home.webp",
+      "alt": "PC 首页：品牌主张、工作室介绍与精选作品",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/works.webp",
+      "alt": "PC 作品页：以实拍照片呈现设计案例",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/about.webp",
+      "alt": "PC 关于页：团队、历程与工作室介绍",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/tablet-home.webp",
+      "alt": "iPad 首页：响应式首屏与折叠导航",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/tablet-works.webp",
+      "alt": "iPad 作品页：双列案例布局",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/tablet-about.webp",
+      "alt": "iPad 关于页：平板团队与时间轴布局",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/mobile-home.webp",
+      "alt": "H5 首页：单列首屏与触控导航",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/mobile-works.webp",
+      "alt": "H5 作品页：手机单列案例卡片",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/mobile-about.webp",
+      "alt": "H5 关于页：手机团队与时间轴布局",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": ""
+    }
+  ],
+  "surfaces": [
+    {
+      "id": "site",
+      "name": "官网",
+      "platform": "pc",
+      "locales": [
+        "zh",
+        "en"
+      ],
+      "pages": [
+        {
+          "slug": "",
+          "title": "首页",
+          "localizedTitles": {
+            "en": "Home"
+          }
+        },
+        {
+          "slug": "about",
+          "title": "关于",
+          "localizedTitles": {
+            "en": "About"
+          }
+        },
+        {
+          "slug": "works",
+          "title": "作品",
+          "localizedTitles": {
+            "en": "Work"
+          }
+        },
+        {
+          "slug": "articles",
+          "title": "文章",
+          "localizedTitles": {
+            "en": "Journal"
+          }
+        },
+        {
+          "slug": "contact",
+          "title": "联系",
+          "localizedTitles": {
+            "en": "Contact"
+          }
+        }
+      ]
+    }
+  ],
+  "license": {
+    "type": "restricted",
+    "file": "docs/LICENSE.md",
+    "summary": "参考素材权利归原作者，商业使用及再分发授权待确认。",
+    "redistributionAllowed": false
+  }
+}
